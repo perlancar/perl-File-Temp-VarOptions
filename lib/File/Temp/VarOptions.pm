@@ -53,7 +53,7 @@ sub tempdir {
     File::Temp::tempdir(
         CLEANUP  => $CLEANUP,
         DIR      => $DIR,
-        TMPDIR   => $DIR,
+        TMPDIR   => $TMPDIR,
         @_,
     );
 }
